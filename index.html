@@ -1,117 +1,219 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLTRANE-V - Progetto di Ricerca</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Header/Intro -->
+    <!-- ========================================
+                      HEADER / HERO
+         ======================================== -->
     <header class="hero">
         <div class="container">
             <img src="img/logo_icon_transparent.png" alt="Logo COLTRANE-V" class="logo">
             <h1>COLTRANE-V</h1>
-            <p class="subtitle"><strong>CO</strong>ntinous <strong>L</strong>earning capabilities for func<strong>T</strong>ional safety <strong>R</strong>un-time thre<strong>A</strong>ts ma<strong>N</strong>ag<strong>E</strong>ment in Automotive RISC<strong>-V</strong> based ECU</p>
+            <p class="subtitle">
+                <strong>CO</strong>ntinous <strong>L</strong>earning capabilities for func<strong>T</strong>ional safety <strong>R</strong>un-time thre<strong>A</strong>ts ma<strong>N</strong>ag<strong>E</strong>ment in Automotive RISC<strong>-V</strong> based ECU
+            </p>
             <p class="description">
-                COLTRANE-V è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal Politecnico di Torino e finanziato dal Ministero dell’Università e della Ricerca. Mira a rendere più affidabili le ECU automotive con un approccio di continuous learning: rilevazione di guasti/attacchi e contromisure real-time su architettura RISC-V + acceleratore AI, in collaborazione con Università degli Studi di Catania e Università degli Studi di Genova.
+                COLTRANE-V è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal Politecnico di Torino e finanziato dal Ministero dell'Università e della Ricerca. Mira a rendere più affidabili le ECU automotive con un approccio di continuous learning: rilevazione di guasti/attacchi e contromisure real-time su architettura RISC-V + acceleratore AI, in collaborazione con Università degli Studi di Catania e Università degli Studi di Genova.
             </p>
         </div>
     </header>
 
-    <!-- Team Section -->
+    <!-- ========================================
+                      TEAM SECTION
+         ======================================== -->
     <section class="team" id="team">
         <div class="container">
             <h2>Team</h2>
+            
             <div class="team-grid">
                 <!-- Alessandro Savino -->
                 <div class="team-card">
                     <img src="team-photos/alessandro-savino.jpg" alt="Alessandro Savino" class="member-photo">
-                    <h3><a href="https://www.linkedin.com/in/alessandro-savino-b606175/" target="_blank" rel="noopener noreferrer">Prof. Alessandro Savino</a></h3>
-                    <a href="https://www.polito.it" target="_blank" rel="noopener noreferrer"><img src="img/polito-logo.png" alt="Politecnico di Torino" class="university-logo"></a>
+                    <h3>
+                        <a href="https://www.linkedin.com/in/alessandro-savino-b606175/" 
+                           target="_blank" rel="noopener noreferrer">
+                            Prof. Alessandro Savino
+                        </a>
+                    </h3>
+                    <a href="https://www.polito.it" target="_blank" rel="noopener noreferrer">
+                        <img src="img/polito-logo.png" alt="Politecnico di Torino" class="university-logo">
+                    </a>
                     <!-- <p class="university">Politecnico di Torino</p> -->
-                    <p class="bio">Professore associato al Dip. di Automatica e Informatica del Politecnico di Torino. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, approximate computing e analisi di immagini.</p>
+                    <p class="bio">
+                        Professore associato al Dip. di Automatica e Informatica del Politecnico di Torino. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, approximate computing e analisi di immagini.
+                    </p>
                     <a href="mailto:alessandro.savino@polito.it" class="contact-btn">📧 Contatta</a>
                 </div>
 
                 <!-- Luca Mannella -->
                 <div class="team-card">
                     <img src="team-photos/luca-mannella.jpg" alt="Luca Mannella" class="member-photo">
-                    <h3><a href="https://www.linkedin.com/in/lucamannella/?locale=en" target="_blank" rel="noopener noreferrer">Dr. Luca Mannella</a></h3>
-                    <a href="https://www.polito.it" target="_blank" rel="noopener noreferrer"><img src="img/polito-logo.png" alt="Politecnico di Torino" class="university-logo"></a>
+                    <h3>
+                        <a href="https://www.linkedin.com/in/lucamannella/?locale=en" 
+                           target="_blank" rel="noopener noreferrer">
+                            Dr. Luca Mannella
+                        </a>
+                    </h3>
+                    <a href="https://www.polito.it" target="_blank" rel="noopener noreferrer">
+                        <img src="img/polito-logo.png" alt="Politecnico di Torino" class="university-logo">
+                    </a>
                     <!-- <p class="university">Politecnico di Torino</p> -->
-                    <p class="bio">Post-doc al Dip. di Automatica e Informatica del Politecnico di Torino. Ricerca tra cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart-home gateway e delle piattaforme domestiche connesse.</p>
+                    <p class="bio">
+                        Post-doc al Dip. di Automatica e Informatica del Politecnico di Torino. Ricerca tra cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart-home gateway e delle piattaforme domestiche connesse.
+                    </p>
                     <a href="mailto:luca.mannella@polito.it" class="contact-btn">📧 Contatta</a>
                 </div>
 
                 <!-- Maurizio Palesi -->
                 <div class="team-card">
                     <img src="team-photos/maurizio-palesi.png" alt="Maurizio Palesi" class="member-photo">
-                    <h3><a href="https://www.linkedin.com/in/maurizio-palesi-6599392/" target="_blank" rel="noopener noreferrer">Prof. Maurizio Palesi</a></h3>
-                    <a href="https://www.unict.it" target="_blank" rel="noopener noreferrer"><img src="img/unict-logo.svg" alt="Università di Catania" class="university-logo"></a>
+                    <h3>
+                        <a href="https://www.linkedin.com/in/maurizio-palesi-6599392/" 
+                           target="_blank" rel="noopener noreferrer">
+                            Prof. Maurizio Palesi
+                        </a>
+                    </h3>
+                    <a href="https://www.unict.it" target="_blank" rel="noopener noreferrer">
+                        <img src="img/unict-logo.svg" alt="Università di Catania" class="university-logo">
+                    </a>
                     <!-- <p class="university">Università degli Studi di Catania</p> -->
-                    <p class="bio">Professore ordinario all’Università di Catania (DIEEI). Lavora su progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.</p>
+                    <p class="bio">
+                        Professore ordinario all'Università di Catania (DIEEI). Lavora su progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
+                    </p>
                     <a href="mailto:maurizio.palesi@unict.it" class="contact-btn">📧 Contatta</a>
                 </div>
 
                 <!-- Elio Vinciguerra -->
                 <div class="team-card">
                     <img src="team-photos/elio-vinciguerra.jpg" alt="Elio Vinciguerra" class="member-photo">
-                    <h3><a href="https://www.linkedin.com/in/eliovinciguerra/" target="_blank" rel="noopener noreferrer">Elio Vinciguerra</a></h3>
-                    <a href="https://www.unict.it" target="_blank" rel="noopener noreferrer"><img src="img/unict-logo.svg" alt="Università di Catania" class="university-logo"></a>
+                    <h3>
+                        <a href="https://www.linkedin.com/in/eliovinciguerra/" 
+                           target="_blank" rel="noopener noreferrer">
+                            Elio Vinciguerra
+                        </a>
+                    </h3>
+                    <a href="https://www.unict.it" target="_blank" rel="noopener noreferrer">
+                        <img src="img/unict-logo.svg" alt="Università di Catania" class="university-logo">
+                    </a>
                     <!-- <p class="university">Università degli Studi di Catania</p> -->
-                    <p class="bio">Ricercatore all’Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.</p>
+                    <p class="bio">
+                        Ricercatore all'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.
+                    </p>
                     <a href="mailto:elio.vinciguerra@unict.it" class="contact-btn">📧 Contatta</a>
                 </div>
 
                 <!-- Alessio Merlo -->
                 <div class="team-card">
                     <img src="team-photos/alessio-merlo.jpg" alt="Alessio Merlo" class="member-photo">
-                    <h3><a href="https://www.linkedin.com/in/alessio-merlo-5024203/" target="_blank" rel="noopener noreferrer">Prof. Alessio Merlo</a></h3>
-                    <a href="https://www.unige.it" target="_blank" rel="noopener noreferrer"><img src="img/unige-logo.png" alt="Università di Genova" class="university-logo"></a>
-                    <!-- <p class="university">Università degli Studi di Genova</p> -->
-                    <p class="bio">Professore e ricercatore in cybersecurity, con forte focus su mobile security (Android): analisi statica/dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca di Mobile Security all’Università di Genova.</p>
+                    <h3>
+                        <a href="https://www.linkedin.com/in/alessio-merlo-5024203/" 
+                           target="_blank" rel="noopener noreferrer">
+                            Prof. Alessio Merlo
+                        </a>
+                    </h3>
+                    <a href="https://www.unige.it" target="_blank" rel="noopener noreferrer">
+                        <img src="img/unige-logo.png" alt="Università di Genova" class="university-logo">
+                    </a>
+                    <p class="bio">
+                        Professore e ricercatore in cybersecurity, con forte focus su mobile security (Android): analisi statica/dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca di Mobile Security all'Università di Genova.
+                    </p>
                     <a href="mailto:alessio.merlo@unige.it" class="contact-btn">📧 Contatta</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Publications Section -->
+    <!-- ========================================
+                  PUBLICATIONS SECTION
+         ======================================== -->
     <section class="publications" id="publications">
         <div class="container">
             <h2>Pubblicazioni</h2>
-            <p class="section-intro">Di seguito sono elencati gli articoli e i paper pubblicati dal team di COLTRANE-V.</p>
+            <p class="section-intro">
+                Di seguito sono elencati gli articoli e i paper pubblicati dal team di COLTRANE-V.
+            </p>
             
             <div class="publications-list">
+                <!--2026-->
                 <h3>2026</h3>
                 <ul>
-                    <li><strong>CHAOS: Controlled Hardware fAult injectOr System for gem5</strong> — <a href="https://arxiv.org/abs/2602.02119" target="_blank" rel="noopener noreferrer">arXiv</a></li>
+                    <li>
+                        <strong>CHAOS: Controlled Hardware fAult injectOr System for gem5</strong> — 
+                        <a href="https://arxiv.org/abs/2602.02119" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    </li>
                 </ul>
 
+                <!--2025-->
                 <h3>2025</h3>
                 <ul>
-                    <li><strong>Real-time Embedded System Fault Injector Framework for Micro-architectural State Based Reliability Assessment</strong> — Journal of Electronic Testing (Springer) — <a href="https://doi.org/10.1007/s10836-025-06170-w" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://iris.polito.it/handle/11583/3000316" target="_blank" rel="noopener noreferrer">IRIS</a></li>
-                    <li><strong>CANDoSA: A Hardware Performance Counter-Based Intrusion Detection System for DoS Attacks on Automotive CAN bus</strong> — IEEE IOLTS 2025 — <a href="https://doi.org/10.1109/IOLTS65288.2025.11116886" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://arxiv.org/abs/2507.14739" target="_blank" rel="noopener noreferrer">arXiv</a></li>
-                    <li><strong>AI-based Classification of Intentional vs. Unintentional Corruptions in the Split Computing context</strong> — IEEE IOLTS 2025 — <a href="https://doi.org/10.1109/IOLTS65288.2025.11116959" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://iris.polito.it/handle/11583/3003794" target="_blank" rel="noopener noreferrer">IRIS</a></li>
-                    <li><strong>Uncovering Privacy Vulnerabilities through Analytical Gradient Inversion Attacks</strong> — Springer — <a href="https://doi.org/10.48550/arXiv.2509.18871" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://arxiv.org/abs/2509.18871" target="_blank" rel="noopener noreferrer">arXiv</a></li>
-                    <li><strong>An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective</strong> — IEEE PDP 2025 — <a href="https://doi.org/10.1109/PDP66500.2025.00051" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://ieeexplore.ieee.org/abstract/document/10974834" target="_blank" rel="noopener noreferrer">IEEE Xplore</a></li>
+                    <li>
+                        <strong>Real-time Embedded System Fault Injector Framework for Micro-architectural State Based Reliability Assessment</strong> — 
+                        Journal of Electronic Testing (Springer) — 
+                        <a href="https://doi.org/10.1007/s10836-025-06170-w" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://iris.polito.it/handle/11583/3000316" target="_blank" rel="noopener noreferrer">IRIS</a>
+                    </li>
+                    <li>
+                        <strong>CANDoSA: A Hardware Performance Counter-Based Intrusion Detection System for DoS Attacks on Automotive CAN bus</strong> — 
+                        IEEE IOLTS 2025 — 
+                        <a href="https://doi.org/10.1109/IOLTS65288.2025.11116886" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://arxiv.org/abs/2507.14739" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    </li>
+                    <li>
+                        <strong>AI-based Classification of Intentional vs. Unintentional Corruptions in the Split Computing context</strong> — 
+                        IEEE IOLTS 2025 — 
+                        <a href="https://doi.org/10.1109/IOLTS65288.2025.11116959" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://iris.polito.it/handle/11583/3003794" target="_blank" rel="noopener noreferrer">IRIS</a>
+                    </li>
+                    <li>
+                        <strong>Uncovering Privacy Vulnerabilities through Analytical Gradient Inversion Attacks</strong> — 
+                        Springer — 
+                        <a href="https://doi.org/10.48550/arXiv.2509.18871" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://arxiv.org/abs/2509.18871" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    </li>
+                    <li>
+                        <strong>An Anomaly Detection Model for RISC-V in Automotive Applications: A Domain-Specific Accelerator Perspective</strong> — 
+                        IEEE PDP 2025 — 
+                        <a href="https://doi.org/10.1109/PDP66500.2025.00051" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10974834" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>
+                    </li>
                 </ul>
 
+                <!--2024-->
                 <h3>2024</h3>
                 <ul>
-                    <li><strong>CARACAS: vehiCular ArchitectuRe for detAiled Can Attacks Simulation</strong> — IEEE ISCC 2024 — <a href="https://doi.org/10.1109/ISCC61673.2024.10733705" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://arxiv.org/abs/2406.07125" target="_blank" rel="noopener noreferrer">arXiv</a></li>
-                    <li><strong>R-CONV: An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients</strong> — Springer LNCS, WISE 2024 — <a href="https://doi.org/10.1007/978-981-96-0576-7_21" target="_blank" rel="noopener noreferrer">DOI</a> | <a href="https://arxiv.org/abs/2406.04227" target="_blank" rel="noopener noreferrer">arXiv</a></li>
+                    <li>
+                        <strong>CARACAS: vehiCular ArchitectuRe for detAiled Can Attacks Simulation</strong> — 
+                        IEEE ISCC 2024 — 
+                        <a href="https://doi.org/10.1109/ISCC61673.2024.10733705" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://arxiv.org/abs/2406.07125" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    </li>
+                    <li>
+                        <strong>R-CONV: An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients</strong> — 
+                        Springer LNCS, WISE 2024 — 
+                        <a href="https://doi.org/10.1007/978-981-96-0576-7_21" target="_blank" rel="noopener noreferrer">DOI</a> | 
+                        <a href="https://arxiv.org/abs/2406.04227" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Repositories Section -->
+    <!-- ========================================
+                  REPOSITORIES SECTION
+         ======================================== -->
     <section class="repositories" id="repositories">
         <div class="container">
             <h2>Repository del Progetto</h2>
-            <p class="section-intro">Repository pubblici contenenti codice e strumenti sviluppati dal progetto COLTRANE-V.</p>
+            <p class="section-intro">
+                Repository pubblici contenenti codice e strumenti sviluppati dal progetto COLTRANE-V.
+            </p>
             
             <table class="repos-table">
                 <thead>
@@ -126,33 +228,57 @@
                     <tr>
                         <td><code>CHAOS</code></td>
                         <td>Controlled Hardware fAult injectOr System for gem5</td>
-                        <td><a href="https://github.com/eliovinciguerra/CHAOS" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                        <td><a href="https://doi.org/10.48550/arXiv.2602.02119" target="_blank" rel="noopener noreferrer">CHAOS (2026)</a></td>
+                        <td>
+                            <a href="https://github.com/eliovinciguerra/CHAOS" 
+                               target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </td>
+                        <td>
+                            <a href="https://doi.org/10.48550/arXiv.2602.02119" 
+                               target="_blank" rel="noopener noreferrer">CHAOS (2026)</a>
+                        </td>
                     </tr>
                     <tr>
                         <td><code>CARACAS</code></td>
                         <td>vehiCular ArchitectuRe for detAiled Can Attacks Simulation</td>
-                        <td><a href="https://github.com/smilies-polito/CARACAS" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                        <td><a href="https://doi.org/10.1109/ISCC61673.2024.10733705" target="_blank" rel="noopener noreferrer">CARACAS (2024)</a></td>
+                        <td>
+                            <a href="https://github.com/smilies-polito/CARACAS" 
+                               target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </td>
+                        <td>
+                            <a href="https://doi.org/10.1109/ISCC61673.2024.10733705" 
+                               target="_blank" rel="noopener noreferrer">CARACAS (2024)</a>
+                        </td>
                     </tr>
                     <tr>
                         <td><code>R-CONV</code></td>
                         <td>An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients</td>
-                        <td><a href="https://github.com/tamertaras91/R-CONV" target="_blank" rel="noopener noreferrer">GitHub</a></td>
-                        <td><a href="https://doi.org/10.1007/978-981-96-0576-7_21" target="_blank" rel="noopener noreferrer">R-CONV (2024)</a></td>
+                        <td>
+                            <a href="https://github.com/tamertaras91/R-CONV" 
+                               target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </td>
+                        <td>
+                            <a href="https://doi.org/10.1007/978-981-96-0576-7_21" 
+                               target="_blank" rel="noopener noreferrer">R-CONV (2024)</a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========================================
+                        FOOTER
+         ======================================== -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>COLTRANE-V</h4>
-                    <p> <strong>COLTRANE-V</strong> è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal Politecnico di Torino e finanziato dal Ministero dell’Università e della Ricerca.</p>
+                    <p>
+                        <strong>COLTRANE-V</strong> è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) 
+                        coordinato dal Politecnico di Torino e finanziato dal Ministero dell'Università 
+                        e della Ricerca.
+                    </p>
                 </div>
                 <div class="footer-section">
                     <h4>Contatti</h4>
@@ -168,4 +294,5 @@
         </div>
     </footer>
 </body>
+
 </html>
