@@ -1,4 +1,4 @@
-# �️ Guida per i Maintainer del Sito COLTRANE-V
+# �️ Guida per i Maintainer del Sito
 
 Questa guida spiega come mantenere e aggiornare il sito web [coltrane-v.github.io](https://coltrane-v.github.io).
 
@@ -32,7 +32,11 @@ Trova la sezione `<section class="team" id="team">` e aggiungi una nuova card:
 ```html
 <!-- Mario Rossi -->
 <div class="team-card">
-    <img src="team-photos/mario-rossi.jpg" alt="Mario Rossi" class="member-photo">
+    <a href="https://www.linkedin.com/in/mario-rossi/" 
+       class="member-photo-link" 
+       target="_blank" rel="noopener noreferrer">
+        <img src="team-photos/mario-rossi.jpg" alt="Mario Rossi" class="member-photo">
+    </a>
     <h3>
         <a href="https://www.linkedin.com/in/mario-rossi/" 
            target="_blank" rel="noopener noreferrer">
@@ -51,6 +55,9 @@ Trova la sezione `<section class="team" id="team">` e aggiungi una nuova card:
 ```
 
 **Note:**
+- La foto dev'essere avvolta in un `<a>` con classe `member-photo-link` per l'effetto 3D
+- Su **desktop con mouse**: la foto ruota di 360° quando passi sopra (effetto flipping)
+- Su **mobile/tablet touch**: click diretto al profilo LinkedIn senza animazione
 - Aggiungi il logo dell'università in `img/` se non presente
 - Mantieni lo stesso formato delle altre card
 
