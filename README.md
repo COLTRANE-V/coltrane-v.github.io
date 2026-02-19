@@ -92,6 +92,7 @@ Repository pubblici contenenti codice e strumenti sviluppati dal progetto COLTRA
 | Repository | Descrizione | Link | Paper |
 |------------|-------------|------|-------|
 | **CHAOS** | Controlled Hardware fAult injectOr System for gem5 | [GitHub](https://github.com/eliovinciguerra/CHAOS) | [CHAOS (2026)](https://doi.org/10.48550/arXiv.2602.02119) |
+| **SAFER-V** | Real-time Embedded System Fault Injector Framework for RISC-V | [GitHub](https://github.com/COLTRANE-V/SAFER-V) | [Real-time Fault Injector (2025)](https://doi.org/10.1007/s10836-025-06170-w) |
 | **CARACAS** | vehiCular ArchitectuRe for detAiled Can Attacks Simulation | [GitHub](https://github.com/smilies-polito/CARACAS) | [CARACAS (2024)](https://doi.org/10.1109/ISCC61673.2024.10733705) |
 | **R-CONV** | An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients | [GitHub](https://github.com/tamertaras91/R-CONV) | [R-CONV (2024)](https://doi.org/10.1007/978-981-96-0576-7_21) |
 
