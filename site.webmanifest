@@ -1,0 +1,15 @@
+{
+  "name": "COLTRANE-V",
+  "short_name": "COLTRANE-V",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003366",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
