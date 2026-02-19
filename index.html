@@ -4,11 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COLTRANE-V - Progetto di Ricerca</title>
+    <title>COLTRANE-V - Progetto di Ricerca PRIN 2022HWM3T9</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- ========================================
+                      NAVIGATION MENU
+         ======================================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="img/logo_icon_transparent.png" alt="Logo COLTRANE-V" class="nav-logo-img">
+                <span>COLTRANE-V</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Pubblicazioni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#repositories" class="nav-link">Repository</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- ========================================
                       HEADER / HERO
          ======================================== -->
@@ -293,6 +323,37 @@
             </div>
         </div>
     </footer>
+
+    <!-- ========================================
+                    NAVIGATION SCRIPT
+         ======================================== -->
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 
 </html>
