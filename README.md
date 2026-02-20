@@ -6,7 +6,7 @@
 
 ## **CO**ntinous **L**earning capabilities for func**T**ional safety **R**un-time thre**A**ts ma**N**ag**E**ment in Automotive RISC**-V** based ECU
 
-**COLTRANE-V** è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal **Politecnico di Torino** e finanziato dal **Ministero dell'Università e della Ricerca**. 
+**COLTRANE-V** è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal **[Politecnico di Torino](https://www.polito.it)** e finanziato dal **[Ministero dell'Università e della Ricerca (MUR)](https://www.mur.gov.it)** italiano. 
 
 Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di **continuous learning**: rilevazione di guasti e attacchi e contromisure real-time su architettura RISC-V con acceleratore AI, in collaborazione con **Università degli Studi di Catania** e **Centro Alti Studi per la Difesa (CASD)**.
 
@@ -20,7 +20,7 @@ Visita il sito ufficiale del progetto: **[coltrane-v.github.io](https://coltrane
 
 ## 👥 Teams
 
-### Politecnico di Torino - [SMILIES group] (www.smilies.polito.it)
+### Politecnico di Torino - [SMILIES group](https://www.smilies.polito.it)
 
 #### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
 Professore associato al Dipartimento di Automatica e Informatica del Politecnico di Torino, vicedirettore del gruppo. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.  
@@ -102,12 +102,12 @@ Repository pubblici contenenti codice e strumenti sviluppati dal progetto COLTRA
 ## 📞 Contatti
 
 **Coordinatore del Progetto:**  
-Prof. Alessandro Savino  
+Prof. Alessandro Savino (SMILIES - Politecnico di Torino)
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
-**Istituzione:**  
-Politecnico di Torino  
-Torino, Italia
+**Sviluppatore sito web:**  
+Dr. Luca Mannella (SMILIES - Politecnico di Torino)
+📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
 
 ---
 
@@ -121,5 +121,5 @@ Torino, Italia
 
 <div align="center">
   <p><em>© 2026 COLTRANE-V. Progetto PRIN 2022 (2022HWM3T9, 2023–2025)</em></p>
-  <p><em>Finanziato dal Ministero dell'Università e della Ricerca</em></p>
+  <p><em>Coordinato dal <a href="https://www.polito.it">Politecnico di Torino</a> (Torino, Italia) e finanziato dal <a href="https://www.mur.gov.it">Ministero dell'Università e della Ricerca (MUR)</a> Italiano.</em></p>
 </div>

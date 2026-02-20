@@ -9,6 +9,15 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 60px; /* Offset per compensare la navbar sticky */
 }
+.team-group {
+    margin-bottom: 50px;
+}
+.team-group-title {
+    font-size: 1.3rem;
+    color: #003366;
+    margin-bottom: 25px;
+    text-align: center;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -228,11 +237,42 @@ body {
 }
 
 .university-logo {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     margin: 0;
     object-fit: contain;
     transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.casd-logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+
+.logo-link {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.team-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 12px 0;
+}
+
+.team-logos .university-logo {
+    width: 145px;
+    height: 145px;
+}
+
+.logo-divider {
+    width: 2px;
+    height: 48px;
+    background-color: #003366;
+    opacity: 0.9;
 }
 
 .university-logo:hover {
@@ -540,8 +580,23 @@ body {
     }
 
     .university-logo {
-        width: 170px;
-        height: 170px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .casd-logo {
+        width: 105px;
+        height: 105px;
+        margin: 0;
+    }
+
+    .team-logos .university-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .logo-divider {
+        height: 40px;
     }
 
     .hero {
@@ -609,8 +664,23 @@ body {
     }
 
     .university-logo {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .casd-logo {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+    }
+
+    .team-logos .university-logo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-divider {
+        height: 36px;
     }
 
     .team,
