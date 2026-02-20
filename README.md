@@ -8,7 +8,7 @@
 
 **COLTRANE-V** è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal **Politecnico di Torino** e finanziato dal **Ministero dell'Università e della Ricerca**. 
 
-Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di **continuous learning**: rilevazione di guasti/attacchi e contromisure real-time su architettura RISC-V + acceleratore AI, in collaborazione con **Università degli Studi di Catania** e **Università degli Studi di Genova**.
+Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di **continuous learning**: rilevazione di guasti e attacchi e contromisure real-time su architettura RISC-V con acceleratore AI, in collaborazione con **Università degli Studi di Catania** e **Centro Alti Studi per la Difesa (CASD)**.
 
 ---
 
@@ -18,32 +18,33 @@ Visita il sito ufficiale del progetto: **[coltrane-v.github.io](https://coltrane
 
 ---
 
-## 👥 Team
+## 👥 Teams
 
-### Prof. Alessandro Savino
-**Politecnico di Torino** • [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
-Professore associato al Dip. di Automatica e Informatica del Politecnico di Torino. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, approximate computing e analisi di immagini.  
+### Politecnico di Torino - [SMILIES group] (www.smilies.polito.it)
+
+#### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
+Professore associato al Dipartimento di Automatica e Informatica del Politecnico di Torino, vicedirettore del gruppo. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.  
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
-### Dr. Luca Mannella
-**Politecnico di Torino** • [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)  
-Post-doc al Dip. di Automatica e Informatica del Politecnico di Torino. Ricerca tra cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart-home gateway e delle piattaforme domestiche connesse.  
+#### Dr. Luca Mannella [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)  
+Post-doc al Dipartimento di Automatica e Informatica del Politecnico di Torino. Ricerca in cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart home gateway e delle piattaforme domestiche connesse.  
 📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
 
-### Prof. Maurizio Palesi
-**Università degli Studi di Catania** • [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)  
+### Università degli Studi di Catania
+
+#### Prof. Maurizio Palesi [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)  
 Professore ordinario all'Università di Catania (DIEEI). Lavora su progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.  
 📧 [maurizio.palesi@unict.it](mailto:maurizio.palesi@unict.it)
 
-### Elio Vinciguerra
-**Università degli Studi di Catania** • [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)  
-Ricercatore all'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.  
+#### Elio Vinciguerra [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)  
+Ricercatore all'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare l'affidabilità e la sicurezza, inclusi tecniche di fault injection (es. su gem5) e metodi per le architetture emergenti.  
 📧 [elio.vinciguerra@unict.it](mailto:elio.vinciguerra@unict.it)
 
-### Prof. Alessio Merlo
-**Università degli Studi di Genova** • [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
-Professore e ricercatore in cybersecurity, con forte focus su mobile security (Android): analisi statica/dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca di Mobile Security all'Università di Genova.  
-📧 [alessio.merlo@unige.it](mailto:alessio.merlo@unige.it)
+### Centro Alti Studi per la Difesa (CASD)
+
+#### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
+Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca in Mobile Security all'Università di Genova.  
+📧 [alessio.merlo@ssuos.difesa.it](mailto:alessio.merlo@ssuos.difesa.it)
 
 ---
 
@@ -114,7 +115,7 @@ Torino, Italia
 
 - **Politecnico di Torino** (Coordinatore)
 - **Università degli Studi di Catania**
-- **Università degli Studi di Genova**
+- **Centro Alti Studi per la Difesa (CASD)**
 
 ---
 
