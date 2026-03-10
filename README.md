@@ -24,30 +24,43 @@ Visita il sito ufficiale del progetto: **[coltrane-v.github.io](https://coltrane
 
 #### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
 Professore associato presso il Dipartimento di Automatica e Informatica del Politecnico di Torino e vicedirettore del gruppo SMILIES. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.
+
+🧬 [ORCID](https://orcid.org/0000-0003-0529-7950)  
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
 #### Dr. Luca Mannella [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)  
 Ricercatore post-doc presso il Dipartimento di Automatica e Informatica del Politecnico di Torino. Si occupa di cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart home gateway e delle piattaforme domestiche connesse.
+
+🧬 [ORCID](https://orcid.org/0000-0001-5738-9094)  
 📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
 
 #### Tamer Ahmed Eltaras [DBLP](https://dblp.org/pid/316/2142) | [ORCID](https://orcid.org/0000-0002-8664-9091)  
-Ricercatore presso il Dipartimento di Automatica e Informatica del Politecnico di Torino. Si occupa di cybersecurity e privacy nell'AI, con particolare attenzione a gradient inversion attacks (R-CONV / R-CONV++) e classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.  
+Ricercatore presso il Dipartimento di Automatica e Informatica del Politecnico di Torino. Si occupa di cybersecurity e privacy nell'AI, con particolare attenzione a gradient inversion attacks (R-CONV / R-CONV++) e classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.
+
+🧬 [ORCID](https://orcid.org/0000-0002-8664-9091)  
 📧 [tamer.ahmedeltaras@polito.it](mailto:tamer.ahmedeltaras@polito.it)
+
 
 ### Università degli Studi di Catania
 
 #### Prof. Maurizio Palesi [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)  
 Professore ordinario presso l'Università di Catania (DIEEI). Si occupa di progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
+
+🧬 [ORCID](https://orcid.org/0000-0003-3129-0664)  
 📧 [maurizio.palesi@unict.it](mailto:maurizio.palesi@unict.it)
 
 #### Elio Vinciguerra [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)  
 Ricercatore presso l'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.
+
+🧬 [ORCID](https://orcid.org/0009-0008-2789-8849)  
 📧 [elio.vinciguerra@unict.it](mailto:elio.vinciguerra@unict.it)
 
 ### Centro Alti Studi per la Difesa (CASD)
 
 #### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
 Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca in Mobile Security all'Università di Genova.
+
+🧬 [ORCID](https://orcid.org/0000-0002-2272-2376)  
 📧 [alessio.merlo@ssuos.difesa.it](mailto:alessio.merlo@ssuos.difesa.it)
 
 ---

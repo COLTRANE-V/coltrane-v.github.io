@@ -308,6 +308,31 @@ body {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.team-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.orcid-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #0b6f66;
+}
+
+.orcid-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.orcid-btn:hover {
+    background-color: #095a53;
+}
+
 .contact-btn:hover {
     background-color: #003366;
     transform: scale(1.05);
