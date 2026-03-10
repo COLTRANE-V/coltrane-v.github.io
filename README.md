@@ -23,27 +23,31 @@ Visita il sito ufficiale del progetto: **[coltrane-v.github.io](https://coltrane
 ### Politecnico di Torino - [SMILIES group](https://www.smilies.polito.it)
 
 #### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
-Professore associato al Dipartimento di Automatica e Informatica del Politecnico di Torino, vicedirettore del gruppo. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.  
+Professore associato al Dipartimento di Automatica e Informatica del Politecnico di Torino, vicedirettore del gruppo. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
 #### Dr. Luca Mannella [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)  
-Post-doc al Dipartimento di Automatica e Informatica del Politecnico di Torino. Ricerca in cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart home gateway e delle piattaforme domestiche connesse.  
+Post-doc al Dipartimento di Automatica e Informatica del Politecnico di Torino. Ricerca in cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart home gateway e delle piattaforme domestiche connesse.
 📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
+
+#### Tamer Ahmed Eltaras [DBLP](https://dblp.org/pid/316/2142) | [ORCID](https://orcid.org/0000-0002-8664-9091)  
+Ricercatore attivo su cybersecurity e privacy nell'AI, con lavori su gradient inversion attacks (R-CONV / R-CONV++) e su classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.  
+📧 [tamer.ahmedeltaras@polito.it](mailto:tamer.ahmedeltaras@polito.it)
 
 ### Università degli Studi di Catania
 
 #### Prof. Maurizio Palesi [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)  
-Professore ordinario all'Università di Catania (DIEEI). Lavora su progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.  
+Professore ordinario all'Università di Catania (DIEEI). Lavora su progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
 📧 [maurizio.palesi@unict.it](mailto:maurizio.palesi@unict.it)
 
 #### Elio Vinciguerra [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)  
-Ricercatore all'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare l'affidabilità e la sicurezza, inclusi tecniche di fault injection (es. su gem5) e metodi per le architetture emergenti.  
+Ricercatore all'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare l'affidabilità e la sicurezza, inclusi tecniche di fault injection (es. su gem5) e metodi per le architetture emergenti.
 📧 [elio.vinciguerra@unict.it](mailto:elio.vinciguerra@unict.it)
 
 ### Centro Alti Studi per la Difesa (CASD)
 
 #### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
-Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca in Mobile Security all'Università di Genova.  
+Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca in Mobile Security all'Università di Genova.
 📧 [alessio.merlo@ssuos.difesa.it](mailto:alessio.merlo@ssuos.difesa.it)
 
 ---
