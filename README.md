@@ -68,10 +68,12 @@ Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte foc
 ## 📚 Pubblicazioni
 
 ### 2026
+
 - **CHAOS: Controlled Hardware fAult injectOr System for gem5**  
   [arXiv](https://arxiv.org/abs/2602.02119)
 
 ### 2025
+
 - **Real-time Embedded System Fault Injector Framework for Micro-architectural State Based Reliability Assessment**  
   *Journal of Electronic Testing (Springer)*  
   [DOI](https://doi.org/10.1007/s10836-025-06170-w) | [IRIS](https://iris.polito.it/handle/11583/3000316)
@@ -93,13 +95,18 @@ Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte foc
   [DOI](https://doi.org/10.1109/PDP66500.2025.00051) | [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10974834)
 
 ### 2024
-- **CARACAS: vehiCular ArchitectuRe for detAiled Can Attacks Simulation**  
-  *IEEE ISCC 2024*  
-  [DOI](https://doi.org/10.1109/ISCC61673.2024.10733705) | [arXiv](https://arxiv.org/abs/2406.07125)
 
 - **R-CONV: An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients**  
   *Springer LNCS, WISE 2024*  
   [DOI](https://doi.org/10.1007/978-981-96-0576-7_21) | [arXiv](https://arxiv.org/abs/2406.04227)
+
+- **CARACAS: vehiCular ArchitectuRe for detAiled Can Attacks Simulation**  
+  *IEEE ISCC 2024*  
+  [DOI](https://doi.org/10.1109/ISCC61673.2024.10733705) | [arXiv](https://arxiv.org/abs/2406.07125)
+
+- **A Micro Architectural Events Aware Real-Time Embedded System Fault Injector**  
+  *IEEE LATS 2024*  
+  [DOI](https://doi.org/10.1109/LATS62223.2024.10534595) | [Presentazione](presentations/IEEE-LATS-2024_MARVIN_presentation.pdf)
 
 ---
 
