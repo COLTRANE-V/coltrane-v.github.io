@@ -8,7 +8,7 @@
 
 **COLTRANE-V** è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal **[Politecnico di Torino](https://www.polito.it)** e finanziato dal **[Ministero dell'Università e della Ricerca (MUR)](https://www.mur.gov.it)** italiano. 
 
-Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di **continuous learning**: rilevazione di guasti e attacchi e contromisure real-time su architettura RISC-V con acceleratore AI, in collaborazione con **Università degli Studi di Catania** e **Centro Alti Studi per la Difesa (CASD)**.
+Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di **continuous learning**: rilevazione di guasti e attacchi e contromisure real-time su architettura RISC-V con acceleratore AI, in collaborazione con **Università degli Studi di Catania** e **Università degli Studi di Genova**.
 
 ---
 
@@ -55,13 +55,26 @@ Ricercatore presso l'Università di Catania (DIEEI). Si occupa di architetture e
 🧬 [ORCID](https://orcid.org/0009-0008-2789-8849)  
 📧 [elio.vinciguerra@unict.it](mailto:elio.vinciguerra@unict.it)
 
-### Centro Alti Studi per la Difesa (CASD)
+### Università degli Studi di Genova
+
+#### Prof. Alessandro Armando [LinkedIn](https://www.linkedin.com/in/alessandro-armando-67505913/)  
+Professore ordinario presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS) dell'Università degli Studi di Genova.
+Si occupa di sicurezza informatica con focus su verifica formale di protocolli di sicurezza, analisi di vulnerabilità e trust management.
+
+📧 [alessandro.armando@unige.it](mailto:alessandro.armando@unige.it)
+
+#### Dr. Luca Verderame [LinkedIn](https://www.linkedin.com/in/lucaverderame/)  
+Professore associato presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS) dell'Università degli Studi di Genova.
+Si occupa di cybersecurity con focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione delle applicazioni mobili.
+
+📧 [luca.verderame@unige.it](mailto:luca.verderame@unige.it)
 
 #### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
-Professore ordinario presso il CASD. Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione. Ha guidato per anni un gruppo di ricerca in Mobile Security all'Università di Genova.
+Professore ordinario presso rdinario di Sistemi di Elaborazione delle Informazioni presso il Centro Alti Studi per la Difesa (CASD), Roma, e professore a contratto presso il Dipartimento di informatica, bioingegneria, robotica e ingegneria dei sistemi (DIBRIS) dell'Università degli Studi di Genova.
+Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione.
 
 🧬 [ORCID](https://orcid.org/0000-0002-2272-2376)  
-📧 [alessio.merlo@ssuos.difesa.it](mailto:alessio.merlo@ssuos.difesa.it)
+📧 [alessio.merlo@unige.it](mailto:alessio.merlo@unige.it)
 
 ---
 
@@ -139,7 +152,7 @@ Dr. Luca Mannella (SMILIES - Politecnico di Torino)
 
 - **Politecnico di Torino** (Coordinatore)
 - **Università degli Studi di Catania**
-- **Centro Alti Studi per la Difesa (CASD)**
+- **Università degli Studi di Genova**
 
 ---
 

@@ -250,6 +250,12 @@ body {
     margin: 0;
 }
 
+.unige-logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+
 .logo-link {
     display: inline-block;
     margin: 12px 0;
@@ -615,6 +621,12 @@ body {
         margin: 0;
     }
 
+    .unige-logo {
+        width: 105px;
+        height: 105px;
+        margin: 0;
+    }
+
     .team-logos .university-logo {
         width: 130px;
         height: 130px;
@@ -694,6 +706,12 @@ body {
     }
 
     .casd-logo {
+        width: 90px;
+        height: 90px;
+        margin: 0;
+    }
+
+    .unige-logo {
         width: 90px;
         height: 90px;
         margin: 0;
