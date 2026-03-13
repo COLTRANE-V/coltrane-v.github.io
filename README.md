@@ -22,20 +22,26 @@ Visita il sito ufficiale del progetto: **[coltrane-v.github.io](https://coltrane
 
 ### Politecnico di Torino - [SMILIES group](https://www.smilies.polito.it)
 
-#### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)  
-Professore associato presso il Dipartimento di Automatica e Informatica del Politecnico di Torino e vicedirettore del gruppo SMILIES. Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.
+#### Prof. Alessandro Savino [LinkedIn](https://www.linkedin.com/in/alessandro-savino-b606175/)
+
+Professore associato presso il Dipartimento di Automatica e Informatica ([DAUIN](https://www.dauin.polito.it/)) del Politecnico di Torino e vicedirettore del gruppo [SMILIES](https://www.smilies.polito.it/).
+Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.
 
 🧬 [ORCID](https://orcid.org/0000-0003-0529-7950)  
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
-#### Dr. Luca Mannella [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)  
-Ricercatore post-doc presso il Dipartimento di Automatica e Informatica del Politecnico di Torino. Si occupa di cybersecurity, IoT e software engineering, con focus sulla sicurezza degli smart home gateway e delle piattaforme domestiche connesse.
+#### Dr. Luca Mannella [LinkedIn](https://www.linkedin.com/in/lucamannella/?locale=en)
+
+Ricercatore post-doc presso il Dipartimento di Automatica e Informatica ([DAUIN](https://www.dauin.polito.it/)) del Politecnico di Torino.
+Si occupa di cybersecurity, IoT e software engineering, con focus sulla sicurezza delle piattaforme domestiche connesse e dei sistemi automotive.
 
 🧬 [ORCID](https://orcid.org/0000-0001-5738-9094)  
 📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
 
-#### Tamer Ahmed Eltaras [DBLP](https://dblp.org/pid/316/2142) | [ORCID](https://orcid.org/0000-0002-8664-9091)  
-Ricercatore presso il Dipartimento di Automatica e Informatica del Politecnico di Torino. Si occupa di cybersecurity e privacy nell'AI, con particolare attenzione a gradient inversion attacks (R-CONV / R-CONV++) e classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.
+#### Tamer Ahmed Eltaras [DBLP](https://dblp.org/pid/316/2142) | [ORCID](https://orcid.org/0000-0002-8664-9091)
+
+Ricercatore presso il Dipartimento di Automatica e Informatica ([DAUIN](https://www.dauin.polito.it/)) del Politecnico di Torino.
+Si occupa di cybersecurity e privacy nell'AI, con particolare attenzione a gradient inversion attacks (R-CONV / R-CONV++) e classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.
 
 🧬 [ORCID](https://orcid.org/0000-0002-8664-9091)  
 📧 [tamer.ahmedeltaras@polito.it](mailto:tamer.ahmedeltaras@polito.it)
@@ -43,34 +49,43 @@ Ricercatore presso il Dipartimento di Automatica e Informatica del Politecnico d
 
 ### Università degli Studi di Catania
 
-#### Prof. Maurizio Palesi [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)  
-Professore ordinario presso l'Università di Catania (DIEEI). Si occupa di progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
+#### Prof. Maurizio Palesi [LinkedIn](https://www.linkedin.com/in/maurizio-palesi-6599392/)
+
+Professore ordinario presso il Dipartimento di Ingegneria Elettrica, Elettronica e Informatica ([DIEEI](https://www.dieei.unict.it/)) dell'Università di Catania.
+Si occupa di progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
 
 🧬 [ORCID](https://orcid.org/0000-0003-3129-0664)  
 📧 [maurizio.palesi@unict.it](mailto:maurizio.palesi@unict.it)
 
-#### Elio Vinciguerra [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)  
-Ricercatore presso l'Università di Catania (DIEEI). Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.
+#### Elio Vinciguerra [LinkedIn](https://www.linkedin.com/in/eliovinciguerra/)
+
+Ricercatore presso il Dipartimento di Ingegneria Elettrica, Elettronica e Informatica ([DIEEI](https://www.dieei.unict.it/)) dell'Università di Catania.
+Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.
 
 🧬 [ORCID](https://orcid.org/0009-0008-2789-8849)  
 📧 [elio.vinciguerra@unict.it](mailto:elio.vinciguerra@unict.it)
 
 ### Università degli Studi di Genova
 
-#### Prof. Alessandro Armando [LinkedIn](https://www.linkedin.com/in/alessandro-armando-67505913/)  
-Professore ordinario presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS) dell'Università degli Studi di Genova.
+#### Prof. Alessandro Armando [LinkedIn](https://www.linkedin.com/in/alessandro-armando-67505913/)
+
+Professore ordinario presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi ([DIBRIS](https://rubrica.unige.it/strutture/struttura/100023)) dell'Università degli Studi di Genova.
 Si occupa di sicurezza informatica con focus su verifica formale di protocolli di sicurezza, analisi di vulnerabilità e trust management.
 
+🧬 [ORCID](https://orcid.org/0000-0002-5246-2157)  
 📧 [alessandro.armando@unige.it](mailto:alessandro.armando@unige.it)
 
-#### Dr. Luca Verderame [LinkedIn](https://www.linkedin.com/in/lucaverderame/)  
-Professore associato presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS) dell'Università degli Studi di Genova.
+#### Prof. Luca Verderame [LinkedIn](https://www.linkedin.com/in/lucaverderame/)
+
+Professore associato presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi ([DIBRIS](https://rubrica.unige.it/strutture/struttura/100023)) dell'Università degli Studi di Genova.
 Si occupa di cybersecurity con focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione delle applicazioni mobili.
 
+🧬 [ORCID](https://orcid.org/0000-0001-7155-7429)  
 📧 [luca.verderame@unige.it](mailto:luca.verderame@unige.it)
 
-#### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)  
-Professore ordinario presso rdinario di Sistemi di Elaborazione delle Informazioni presso il Centro Alti Studi per la Difesa (CASD), Roma, e professore a contratto presso il Dipartimento di informatica, bioingegneria, robotica e ingegneria dei sistemi (DIBRIS) dell'Università degli Studi di Genova.
+#### Prof. Alessio Merlo [LinkedIn](https://www.linkedin.com/in/alessio-merlo-5024203/)
+
+Professore ordinario di Sistemi di Elaborazione delle Informazioni presso il Centro Alti Studi per la Difesa ([CASD](https://unicasd.difesa.it/)), Roma, e professore a contratto presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi ([DIBRIS](https://rubrica.unige.it/strutture/struttura/100023)) dell'Università degli Studi di Genova.
 Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione.
 
 🧬 [ORCID](https://orcid.org/0000-0002-2272-2376)  
@@ -139,11 +154,11 @@ Repository pubblici contenenti codice e strumenti sviluppati dal progetto COLTRA
 ## 📞 Contatti
 
 **Coordinatore del Progetto:**  
-Prof. Alessandro Savino (SMILIES - Politecnico di Torino)
+Prof. Alessandro Savino ([SMILIES](https://www.smilies.polito.it/) - Politecnico di Torino)
 📧 [alessandro.savino@polito.it](mailto:alessandro.savino@polito.it)
 
 **Sviluppatore sito web:**  
-Dr. Luca Mannella (SMILIES - Politecnico di Torino)
+Dr. Luca Mannella ([SMILIES](https://www.smilies.polito.it/) - Politecnico di Torino)
 📧 [luca.mannella@polito.it](mailto:luca.mannella@polito.it)
 
 ---
