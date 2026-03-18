@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COLTRANE-V - Progetto di Ricerca PRIN 2022HWM3T9</title>
+    <title>COLTRANE-V - PRIN 2022 Research Project</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="apple-touch-icon" href="img/favicon.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="style.css">
+    <noscript>
+        <style>
+            #languageToggle,
+            #hamburger {
+                display: none !important;
+            }
+        </style>
+    </noscript>
 </head>
 
 <body>
@@ -17,12 +25,15 @@
          ======================================== -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo">
-                <img src="img/logo_icon_transparent.png" alt="Logo COLTRANE-V" class="nav-logo-img">
-                <span>COLTRANE-V</span>
-            </a>
+            <div class="nav-left">
+                <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to Italian">IT</button>
+                <a href="#" class="nav-logo">
+                    <img src="img/logo_icon_transparent.png" alt="COLTRANE-V logo" class="nav-logo-img" data-i18n-alt="alt.logo">
+                    <span>COLTRANE-V</span>
+                </a>
+            </div>
             
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
@@ -30,13 +41,13 @@
             
             <ul class="nav-menu" id="navMenu">
                 <li class="nav-item">
-                    <a href="#team" class="nav-link">Team</a>
+                    <a href="#team" class="nav-link" data-i18n="nav.team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#publications" class="nav-link">Pubblicazioni</a>
+                    <a href="#publications" class="nav-link" data-i18n="nav.publications">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#repositories" class="nav-link">Repository</a>
+                    <a href="#repositories" class="nav-link" data-i18n="nav.repositories">Repositories</a>
                 </li>
             </ul>
         </div>
@@ -47,13 +58,13 @@
          ======================================== -->
     <header class="hero">
         <div class="container">
-            <img src="img/logo_icon_transparent.png" alt="Logo COLTRANE-V" class="logo">
+            <img src="img/logo_icon_transparent.png" alt="COLTRANE-V logo" class="logo" data-i18n-alt="alt.logo">
             <h1>COLTRANE-V</h1>
             <p class="subtitle">
                 <strong>CO</strong>ntinous <strong>L</strong>earning capabilities for func<strong>T</strong>ional safety <strong>R</strong>un-time thre<strong>A</strong>ts ma<strong>N</strong>ag<strong>E</strong>ment in Automotive RISC<strong>-V</strong> based ECU
             </p>
-            <p class="description">
-                COLTRANE-V è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) coordinato dal Politecnico di Torino e finanziato dal Ministero dell'Università e della Ricerca. Il progetto mira a rendere più affidabili le ECU automotive attraverso un approccio di continuous learning: rilevazione di guasti e attacchi e contromisure real-time su architettura RISC-V con acceleratore AI, in collaborazione con Università degli Studi di Catania e Università degli Studi di Genova.
+            <p class="description" data-i18n="hero.description">
+                COLTRANE-V is a PRIN 2022 project (2022HWM3T9, 2023-2025) coordinated by Politecnico di Torino and funded by the Italian Ministry of University and Research. The project aims to improve the dependability of automotive ECUs through a continuous learning approach: detection of faults and attacks together with real-time countermeasures on a RISC-V architecture with an AI accelerator, in collaboration with the University of Catania and the University of Genoa.
             </p>
         </div>
     </header>
@@ -66,7 +77,7 @@
             <h2>Team</h2>
 
             <div class="team-group">
-                <h3 class="team-group-title">Politecnico di Torino — 
+                <h3 class="team-group-title" data-i18n-html="team.group.polito">Politecnico di Torino — 
                     <a href="https://www.smilies.polito.it" target="_blank" rel="noopener noreferrer">SMILIES group</a>
                 </h3>
                 <div class="team-grid">
@@ -74,7 +85,7 @@
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/alessandro-savino-b606175/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/alessandro-savino.jpg" alt="Alessandro Savino" class="member-photo">
+                            <img src="team-photos/alessandro-savino.jpg" alt="Portrait of Alessandro Savino" class="member-photo" data-i18n-alt="alt.photo.alessandroSavino">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/alessandro-savino-b606175/" 
@@ -84,21 +95,21 @@
                         </h3>
                         <div class="team-logos">
                             <a href="https://www.polito.it/personale?p=alessandro.savino" target="_blank" rel="noopener noreferrer">
-                                <img src="img/polito-logo.png" alt="Alessandro Savino - Politecnico di Torino" class="university-logo">
+                                <img src="img/polito-logo.png" alt="Alessandro Savino - Polytechnic University of Turin" class="university-logo" data-i18n-alt="alt.logo.polito.alessandroSavino">
                             </a>
                             <span class="logo-divider" aria-hidden="true"></span>
                             <a href="https://www.smilies.polito.it/our-team/prof-alessandro-savino/" target="_blank" rel="noopener noreferrer">
-                                <img src="img/LOGO_RG.PNG" alt="Alessandro Savino - SMILIES group" class="university-logo smilies-logo">
+                                <img src="img/LOGO_RG.PNG" alt="Alessandro Savino - SMILIES group" class="university-logo smilies-logo" data-i18n-alt="alt.logo.smilies.alessandroSavino">
                             </a>
                         </div>
                         <!-- <p class="university">Politecnico di Torino</p> -->
-                        <p class="bio">
-                            Professore associato presso il Dipartimento di Automatica e Informatica (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) del Politecnico di Torino e vicedirettore del gruppo <a href="https://www.smilies.polito.it/" target="_blank" rel="noopener noreferrer">SMILIES</a>.
-                            Si occupa di affidabilità e sicurezza hardware/software per sistemi safety-critical, di approximate computing e di sustainable computing.
+                        <p class="bio" data-i18n-html="bio.alessandroSavino">
+                            Associate Professor at the Department of Control and Computer Engineering (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) of Politecnico di Torino and deputy director of the <a href="https://www.smilies.polito.it/" target="_blank" rel="noopener noreferrer">SMILIES</a> group.
+                            His research focuses on hardware/software dependability and security for safety-critical systems, approximate computing, and sustainable computing.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0003-0529-7950" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:alessandro.savino@polito.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:alessandro.savino@polito.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
 
@@ -106,7 +117,7 @@
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/lucamannella/?locale=en" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/luca-mannella.jpg" alt="Luca Mannella" class="member-photo">
+                            <img src="team-photos/luca-mannella.jpg" alt="Portrait of Luca Mannella" class="member-photo" data-i18n-alt="alt.photo.lucaMannella">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/lucamannella/?locale=en" 
@@ -116,21 +127,21 @@
                         </h3>
                         <div class="team-logos">
                             <a href="https://www.polito.it/personale?p=luca.mannella" target="_blank" rel="noopener noreferrer">
-                                <img src="img/polito-logo.png" alt="Luca Mannella - Politecnico di Torino" class="university-logo">
+                                <img src="img/polito-logo.png" alt="Luca Mannella - Polytechnic University of Turin" class="university-logo" data-i18n-alt="alt.logo.polito.lucaMannella">
                             </a>
                             <span class="logo-divider" aria-hidden="true"></span>
                             <a href="https://www.smilies.polito.it/our-team/luca-mannella/" target="_blank" rel="noopener noreferrer">
-                                <img src="img/LOGO_RG.PNG" alt="Luca Mannella - SMILIES group" class="university-logo smilies-logo">
+                                <img src="img/LOGO_RG.PNG" alt="Luca Mannella - SMILIES group" class="university-logo smilies-logo" data-i18n-alt="alt.logo.smilies.lucaMannella">
                             </a>
                         </div>
                         <!-- <p class="university">Politecnico di Torino</p> -->
-                        <p class="bio">
-                            Ricercatore post-doc presso il Dipartimento di Automatica e Informatica (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) del Politecnico di Torino.
-                            Si occupa di cybersecurity, IoT e software engineering, con focus sulla sicurezza delle piattaforme domestiche connesse e dei sistemi automotive.
+                        <p class="bio" data-i18n-html="bio.lucaMannella">
+                            Postdoctoral researcher at the Department of Control and Computer Engineering (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) of Politecnico di Torino.
+                            His work focuses on cybersecurity, IoT, and software engineering, with particular attention to the security of connected home platforms and automotive systems.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0001-5738-9094" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:luca.mannella@polito.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:luca.mannella@polito.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
 
@@ -138,7 +149,7 @@
                     <div class="team-card">
                         <a href="https://it.linkedin.com/in/tamer-ahmed-eltaras-b7572558" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/tamer-eltaras.png" alt="Tamer Ahmed Eltaras" class="member-photo">
+                            <img src="team-photos/tamer-eltaras.png" alt="Portrait of Tamer Ahmed Eltaras" class="member-photo" data-i18n-alt="alt.photo.tamerEltaras">
                         </a>
                         <h3>
                             <a href="https://it.linkedin.com/in/tamer-ahmed-eltaras-b7572558" 
@@ -148,33 +159,33 @@
                         </h3>
                         <div class="team-logos">
                             <a href="https://www.polito.it/personale?p=tamer.ahmedeltaras" target="_blank" rel="noopener noreferrer">
-                                <img src="img/polito-logo.png" alt="Tamer Ahmed Eltaras - Politecnico di Torino" class="university-logo">
+                                <img src="img/polito-logo.png" alt="Tamer Ahmed Eltaras - Polytechnic University of Turin" class="university-logo" data-i18n-alt="alt.logo.polito.tamerEltaras">
                             </a>
                             <span class="logo-divider" aria-hidden="true"></span>
                             <a href="https://www.smilies.polito.it/our-team/tamer-ahmed-eltaras/" target="_blank" rel="noopener noreferrer">
-                                <img src="img/LOGO_RG.PNG" alt="Tamer Ahmed Eltaras - SMILIES group" class="university-logo smilies-logo">
+                                <img src="img/LOGO_RG.PNG" alt="Tamer Ahmed Eltaras - SMILIES group" class="university-logo smilies-logo" data-i18n-alt="alt.logo.smilies.tamerEltaras">
                             </a>
                         </div>
-                        <p class="bio">
-                            Ricercatore presso il Dipartimento di Automatica e Informatica (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) del Politecnico di Torino.
-                            Si occupa di cybersecurity e privacy nell'AI, con particolare attenzione a gradient inversion attacks (R-CONV / R-CONV++) e classificazione AI di attacchi avversariali e corruzioni hardware nel contesto split computing. Ha inoltre contribuito a studi su federated learning e privacy-preserving aggregation.
+                        <p class="bio" data-i18n-html="bio.tamerEltaras">
+                            Researcher at the Department of Control and Computer Engineering (<a href="https://www.dauin.polito.it/" target="_blank" rel="noopener noreferrer">DAUIN</a>) of Politecnico di Torino.
+                            His work focuses on cybersecurity and privacy in AI, with particular attention to gradient inversion attacks (R-CONV / R-CONV++) and AI-based classification of adversarial attacks and hardware corruptions in the split computing context. He has also contributed to studies on federated learning and privacy-preserving aggregation.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0002-8664-9091" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:tamer.ahmedeltaras@polito.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:tamer.ahmedeltaras@polito.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="team-group">
-                <h3 class="team-group-title">Università degli Studi di Catania</h3>
+                <h3 class="team-group-title" data-i18n="team.group.catania">University of Catania</h3>
                 <div class="team-grid">
                     <!-- Maurizio Palesi -->
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/maurizio-palesi-6599392/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/maurizio-palesi.png" alt="Maurizio Palesi" class="member-photo">
+                            <img src="team-photos/maurizio-palesi.png" alt="Portrait of Maurizio Palesi" class="member-photo" data-i18n-alt="alt.photo.maurizioPalesi">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/maurizio-palesi-6599392/" 
@@ -183,15 +194,15 @@
                             </a>
                         </h3>
                         <a href="https://www.dieei.unict.it/docenti/maurizio.palesi" target="_blank" rel="noopener noreferrer" class="logo-link">
-                            <img src="img/unict-logo.png" alt="Maurizio Palesi - Università di Catania" class="university-logo">
+                            <img src="img/unict-logo.png" alt="Maurizio Palesi - University of Catania" class="university-logo" data-i18n-alt="alt.logo.unict.maurizioPalesi">
                         </a>
-                        <p class="bio">
-                            Professore ordinario presso il Dipartimento di Ingegneria Elettrica, Elettronica e Informatica (<a href="https://www.dieei.unict.it/" target="_blank" rel="noopener noreferrer">DIEEI</a>) dell'Università di Catania.
-                            Si occupa di progettazione e ottimizzazione di architetture di calcolo avanzate, in particolare multi-core e Network-on-Chip, con attenzione a prestazioni ed efficienza energetica.
+                        <p class="bio" data-i18n-html="bio.maurizioPalesi">
+                            Full Professor at the Department of Electrical, Electronic and Computer Engineering (<a href="https://www.dieei.unict.it/" target="_blank" rel="noopener noreferrer">DIEEI</a>) of the University of Catania.
+                            His research focuses on the design and optimization of advanced computing architectures, especially multi-core systems and Network-on-Chip solutions, with attention to performance and energy efficiency.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0003-3129-0664" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:maurizio.palesi@unict.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:maurizio.palesi@unict.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
 
@@ -199,7 +210,7 @@
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/eliovinciguerra/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/elio-vinciguerra.jpg" alt="Elio Vinciguerra" class="member-photo">
+                            <img src="team-photos/elio-vinciguerra.jpg" alt="Portrait of Elio Vinciguerra" class="member-photo" data-i18n-alt="alt.photo.elioVinciguerra">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/eliovinciguerra/" 
@@ -208,28 +219,28 @@
                             </a>
                         </h3>
                         <a href="https://www.unict.it" target="_blank" rel="noopener noreferrer" class="logo-link">
-                            <img src="img/unict-logo.png" alt="Università di Catania" class="university-logo">
+                            <img src="img/unict-logo.png" alt="University of Catania" class="university-logo" data-i18n-alt="alt.logo.unict.elioVinciguerra">
                         </a>
-                        <p class="bio">
-                            Ricercatore presso il Dipartimento di Ingegneria Elettrica, Elettronica e Informatica (<a href="https://www.dieei.unict.it/" target="_blank" rel="noopener noreferrer">DIEEI</a>) dell'Università di Catania.
-                            Si occupa di architetture e strumenti per valutare affidabilità e sicurezza, incluse tecniche di fault injection (es. su gem5) e metodi per architetture emergenti.
+                        <p class="bio" data-i18n-html="bio.elioVinciguerra">
+                            Researcher at the Department of Electrical, Electronic and Computer Engineering (<a href="https://www.dieei.unict.it/" target="_blank" rel="noopener noreferrer">DIEEI</a>) of the University of Catania.
+                            His work focuses on architectures and tools for evaluating dependability and security, including fault injection techniques (for example on gem5) and methods for emerging architectures.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0009-0008-2789-8849" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:elio.vinciguerra@unict.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:elio.vinciguerra@unict.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="team-group">
-                <h3 class="team-group-title">Università degli Studi di Genova</h3>
+                <h3 class="team-group-title" data-i18n="team.group.genova">University of Genoa</h3>
                 <div class="team-grid">
                     <!-- Alessandro Armando -->
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/alessandro-armando-67505913/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/alessandro-armando.jpg" alt="Alessandro Armando" class="member-photo">
+                            <img src="team-photos/alessandro-armando.jpg" alt="Portrait of Alessandro Armando" class="member-photo" data-i18n-alt="alt.photo.alessandroArmando">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/alessandro-armando-67505913/" 
@@ -238,15 +249,15 @@
                             </a>
                         </h3>
                         <a href="https://dibris.unige.it/alessandro.armando%40unige.it" target="_blank" rel="noopener noreferrer" class="logo-link">
-                            <img src="img/unige-logo.png" alt="Università degli Studi di Genova" class="university-logo unige-logo">
+                            <img src="img/unige-logo.png" alt="University of Genoa" class="university-logo unige-logo" data-i18n-alt="alt.logo.unige.alessandroArmando">
                         </a>
-                        <p class="bio">
-                            Professore ordinario presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) dell'Università degli Studi di Genova.
-                            Si occupa di sicurezza informatica con focus su verifica formale di protocolli di sicurezza, analisi di vulnerabilità e trust management.
+                        <p class="bio" data-i18n-html="bio.alessandroArmando">
+                            Full Professor at the Department of Informatics, Bioengineering, Robotics and Systems Engineering (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) of the University of Genoa.
+                            His research focuses on cybersecurity, especially the formal verification of security protocols, vulnerability analysis, and trust management.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0002-5246-2157" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:alessandro.armando@unige.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:alessandro.armando@unige.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
 
@@ -254,7 +265,7 @@
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/lucaverderame/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/luca-verderame.jpg" alt="Luca Verderame" class="member-photo">
+                            <img src="team-photos/luca-verderame.jpg" alt="Portrait of Luca Verderame" class="member-photo" data-i18n-alt="alt.photo.lucaVerderame">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/lucaverderame/" 
@@ -263,15 +274,15 @@
                             </a>
                         </h3>
                         <a href="https://rubrica.unige.it/personale/UkNGXV5s" target="_blank" rel="noopener noreferrer" class="logo-link">
-                            <img src="img/unige-logo.png" alt="Università degli Studi di Genova" class="university-logo unige-logo">
+                            <img src="img/unige-logo.png" alt="University of Genoa" class="university-logo unige-logo" data-i18n-alt="alt.logo.unige.lucaVerderame">
                         </a>
-                        <p class="bio">
-                            Professore associato presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) dell'Università degli Studi di Genova.
-                            Si occupa di cybersecurity con focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione delle applicazioni mobili.
+                        <p class="bio" data-i18n-html="bio.lucaVerderame">
+                            Associate Professor at the Department of Informatics, Bioengineering, Robotics and Systems Engineering (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) of the University of Genoa.
+                            His work focuses on cybersecurity with an emphasis on mobile security (Android): static and dynamic analysis, testing, and application protection techniques.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0001-7155-7429" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:luca.verderame@unige.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:luca.verderame@unige.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
 
@@ -279,7 +290,7 @@
                     <div class="team-card">
                         <a href="https://www.linkedin.com/in/alessio-merlo-5024203/" 
                            target="_blank" rel="noopener noreferrer" class="member-photo-link">
-                            <img src="team-photos/alessio-merlo.jpg" alt="Alessio Merlo" class="member-photo">
+                            <img src="team-photos/alessio-merlo.jpg" alt="Portrait of Alessio Merlo" class="member-photo" data-i18n-alt="alt.photo.alessioMerlo">
                         </a>
                         <h3>
                             <a href="https://www.linkedin.com/in/alessio-merlo-5024203/" 
@@ -288,15 +299,15 @@
                             </a>
                         </h3>
                         <a href="https://rubrica.unige.it/personale/UkNGWVJu" target="_blank" rel="noopener noreferrer" class="logo-link">
-                            <img src="img/unige-logo.png" alt="Università degli Studi di Genova" class="university-logo unige-logo">
+                            <img src="img/unige-logo.png" alt="University of Genoa" class="university-logo unige-logo" data-i18n-alt="alt.logo.unige.alessioMerlo">
                         </a>
-                        <p class="bio">
-                            Professore ordinario di Sistemi di Elaborazione delle Informazioni presso il Centro Alti Studi per la Difesa (<a href="https://unicasd.difesa.it/" target="_blank" rel="noopener noreferrer">CASD</a>), Roma, e professore a contratto presso il Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) dell'Università degli Studi di Genova.
-                            Si occupa di cybersecurity con un forte focus su mobile security (Android): analisi statica e dinamica, testing e tecniche di protezione.
+                        <p class="bio" data-i18n-html="bio.alessioMerlo">
+                            Full Professor of Information Processing Systems at the Centro Alti Studi per la Difesa (<a href="https://unicasd.difesa.it/" target="_blank" rel="noopener noreferrer">CASD</a>) in Rome, and adjunct professor at the Department of Informatics, Bioengineering, Robotics and Systems Engineering (<a href="https://rubrica.unige.it/strutture/struttura/100023" target="_blank" rel="noopener noreferrer">DIBRIS</a>) of the University of Genoa.
+                            His research focuses on cybersecurity with a strong emphasis on mobile security (Android): static and dynamic analysis, testing, and protection techniques.
                         </p>
                         <div class="team-actions">
                             <a href="https://orcid.org/0000-0002-2272-2376" target="_blank" rel="noopener noreferrer" class="contact-btn orcid-btn"><img src="img/orcid-logo.svg" alt="ORCID" class="orcid-icon">ORCID</a>
-                            <a href="mailto:alessio.merlo@unige.it" class="contact-btn">📧 Contatta</a>
+                            <a href="mailto:alessio.merlo@unige.it" class="contact-btn" data-i18n="label.contact">📧 Contact</a>
                         </div>
                     </div>
                 </div>
@@ -309,9 +320,9 @@
          ======================================== -->
     <section class="publications" id="publications">
         <div class="container">
-            <h2>Pubblicazioni</h2>
-            <p class="section-intro">
-                Di seguito sono elencati gli articoli e i paper pubblicati dal team di COLTRANE-V.
+            <h2 data-i18n="publications.title">Publications</h2>
+            <p class="section-intro" data-i18n="publications.intro">
+                Below is a selection of articles and papers published by the COLTRANE-V team.
             </p>
             
             <div class="publications-list">
@@ -345,7 +356,7 @@
                         IEEE IOLTS 2025 — 
                         <a href="https://doi.org/10.1109/IOLTS65288.2025.11116959" target="_blank" rel="noopener noreferrer">DOI</a> | 
                         <a href="https://iris.polito.it/handle/11583/3003794" target="_blank" rel="noopener noreferrer">IRIS</a> | 
-                        <a href="presentations/IEEE-IOLTS-2025_Split-Computing_presentation.pdf" target="_blank" rel="noopener noreferrer">Presentazione</a>
+                        <a href="presentations/IEEE-IOLTS-2025_Split-Computing_presentation.pdf" target="_blank" rel="noopener noreferrer" data-i18n="label.presentation">Presentation</a>
                     </li>
                     <li>
                         <strong>Uncovering Privacy Vulnerabilities through Analytical Gradient Inversion Attacks</strong> — 
@@ -369,21 +380,21 @@
                         Springer LNCS, WISE 2024 — 
                         <a href="https://doi.org/10.1007/978-981-96-0576-7_21" target="_blank" rel="noopener noreferrer">DOI</a> | 
                         <a href="https://arxiv.org/abs/2406.04227" target="_blank" rel="noopener noreferrer">arXiv</a> | 
-                        <a href="presentations/Springer-WISE-2024_R-CONV_presentation-v1.pdf" target="_blank" rel="noopener noreferrer">Presentazione</a>
+                        <a href="presentations/Springer-WISE-2024_R-CONV_presentation-v1.pdf" target="_blank" rel="noopener noreferrer" data-i18n="label.presentation">Presentation</a>
                     </li>
                                         <li>
                         <strong>CARACAS: vehiCular ArchitectuRe for detAiled Can Attacks Simulation</strong> — 
                         IEEE ISCC 2024 — 
                         <a href="https://doi.org/10.1109/ISCC61673.2024.10733705" target="_blank" rel="noopener noreferrer">DOI</a> | 
                         <a href="https://arxiv.org/abs/2406.07125" target="_blank" rel="noopener noreferrer">arXiv</a> | 
-                        <a href="presentations/IEEE-ISCC-TrustAICyberSec-2024_CARACAS_presentation.pdf" target="_blank" rel="noopener noreferrer">Presentazione</a>
+                        <a href="presentations/IEEE-ISCC-TrustAICyberSec-2024_CARACAS_presentation.pdf" target="_blank" rel="noopener noreferrer" data-i18n="label.presentation">Presentation</a>
                     </li>
                     <li>
                         <strong>A Micro Architectural Events Aware Real-Time Embedded System Fault Injector</strong> — 
                         IEEE LATS 2024 — 
                         <a href="https://doi.org/10.1109/LATS62223.2024.10534595" target="_blank" rel="noopener noreferrer">DOI</a> |
                         <a href="https://arxiv.org/abs/2401.08397" target="_blank" rel="noopener noreferrer">arXiv</a> | 
-                        <a href="presentations/IEEE-LATS-2024_MARVIN_presentation.pdf" target="_blank" rel="noopener noreferrer">Presentazione</a>
+                        <a href="presentations/IEEE-LATS-2024_MARVIN_presentation.pdf" target="_blank" rel="noopener noreferrer" data-i18n="label.presentation">Presentation</a>
                     </li>
                 </ul>
             </div>
@@ -395,10 +406,10 @@
          ======================================== -->
     <section class="repositories" id="repositories">
         <div class="container">
-            <h2>Repository del Progetto</h2>
-            <p class="section-intro">
-                Repository pubblici contenenti codice e strumenti sviluppati durante il progetto.<br>
-                🔗 Visita anche la nostra organizzazione GitHub
+            <h2 data-i18n="repositories.title">Project Repositories</h2>
+            <p class="section-intro" data-i18n-html="repositories.intro">
+                Public repositories containing code and tools developed during the project.<br>
+                Visit our GitHub organization as well
                 <a href="https://github.com/COLTRANE-V" target="_blank" rel="noopener noreferrer">
                     <strong>github.com/COLTRANE-V</strong>
                 </a>.
@@ -406,8 +417,8 @@
             <table class="repos-table">
                 <thead>
                     <tr>
-                        <th>Nome Repository</th>
-                        <th>Descrizione</th>
+                        <th data-i18n="repositories.table.name">Repository Name</th>
+                        <th data-i18n="repositories.table.description">Description</th>
                         <th>Link</th>
                         <th>Paper</th>
                     </tr>
@@ -415,7 +426,7 @@
                 <tbody>
                     <tr>
                         <td><code>CHAOS</code></td>
-                        <td>Controlled Hardware fAult injectOr System for gem5</td>
+                        <td data-i18n="repositories.chaos">Controlled Hardware fAult injectOr System for gem5</td>
                         <td>
                             <a href="https://github.com/eliovinciguerra/CHAOS" 
                                target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -427,7 +438,7 @@
                     </tr>
                     <tr>
                         <td><code>SAFER-V</code></td>
-                        <td>Real-time Embedded System Fault Injector Framework for RISC-V</td>
+                        <td data-i18n="repositories.saferv">Real-time Embedded System Fault Injector Framework for RISC-V</td>
                         <td>
                             <a href="https://github.com/COLTRANE-V/SAFER-V" 
                                target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -439,7 +450,7 @@
                     </tr>
                     <tr>
                         <td><code>CARACAS</code></td>
-                        <td>vehiCular ArchitectuRe for detAiled Can Attacks Simulation</td>
+                        <td data-i18n="repositories.caracas">vehiCular ArchitectuRe for detAiled Can Attacks Simulation</td>
                         <td>
                             <a href="https://github.com/smilies-polito/CARACAS" 
                                target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -451,7 +462,7 @@
                     </tr>
                     <tr>
                         <td><code>R-CONV</code></td>
-                        <td>An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients</td>
+                        <td data-i18n="repositories.rconv">An Analytical Approach for Efficient Data Reconstruction via Convolutional Gradients</td>
                         <td>
                             <a href="https://github.com/tamertaras91/R-CONV" 
                                target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -474,19 +485,19 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>COLTRANE-V</h4>
-                    <p>
-                        <strong>COLTRANE-V</strong> è un progetto PRIN 2022 (2022HWM3T9, 2023–2025) 
-                        coordinato dal 
+                    <p data-i18n-html="footer.project">
+                        <strong>COLTRANE-V</strong> is a PRIN 2022 project (2022HWM3T9, 2023-2025) 
+                        coordinated by 
                         <a href="https://www.polito.it" target="_blank" rel="noopener noreferrer">Politecnico di Torino</a> 
-                        (Torino, Italia) e finanziato dal 
-                        <a href="https://www.mur.gov.it" target="_blank" rel="noopener noreferrer">Ministero dell'Università 
-                        e della Ricerca (MUR)</a> italiano.
+                        (Turin, Italy) and funded by the Italian 
+                        <a href="https://www.mur.gov.it" target="_blank" rel="noopener noreferrer">Ministry of University 
+                        and Research (MUR)</a>.
                     </p>
                 </div>
                 <div class="footer-section">
                     <h4>GitHub</h4>
-                    <p>
-                        Esplora i nostri repository pubblici e contribuisci al progetto.
+                    <p data-i18n="footer.github.description">
+                        Explore our public repositories and contribute to the project.
                     </p>
                     <p>
                         <a href="https://github.com/COLTRANE-V" target="_blank" rel="noopener noreferrer">
@@ -495,19 +506,19 @@
                     </p>
                 </div>
                 <div class="footer-section">
-                    <h4>Contatti</h4>
-                    <p>
-                      <strong>Coordinatore</strong>: Prof. Alessandro Savino<br>
+                    <h4 data-i18n="footer.contacts.title">Contacts</h4>
+                    <p data-i18n-html="footer.contacts.coordinator">
+                      <strong>Coordinator</strong>: Prof. Alessandro Savino<br>
                        Email: <a href="mailto:alessandro.savino@polito.it">alessandro.savino@polito.it</a>
                     </p>
-                    <p>
-                      <strong>Sviluppatore sito web</strong>: Dr. Luca Mannella<br>
+                    <p data-i18n-html="footer.contacts.developer">
+                      <strong>Website developer</strong>: Dr. Luca Mannella<br>
                        Email: <a href="mailto:luca.mannella@polito.it">luca.mannella@polito.it</a>
                     </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 COLTRANE-V. Tutti i diritti riservati.</p>
+                <p data-i18n="footer.copyright">&copy; 2026 COLTRANE-V. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -515,33 +526,8 @@
     <!-- ========================================
                     NAVIGATION SCRIPT
          ======================================== -->
-    <script>
-        // Hamburger menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const navMenu = document.getElementById('navMenu');
-        
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-        
-        // Close menu when clicking on a link
-        const navLinks = document.querySelectorAll('.nav-link');
-        navLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            });
-        });
-        
-        // Close menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-            }
-        });
-    </script>
+    <script src="translations.js"></script>
+    <script src="site.js"></script>
 </body>
 
 </html>

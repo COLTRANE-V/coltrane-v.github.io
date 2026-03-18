@@ -52,6 +52,40 @@ body {
     height: 60px;
 }
 
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.language-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.language-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 255, 255, 0.55);
+}
+
+.language-toggle:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;
@@ -535,6 +569,17 @@ body {
     .hamburger {
         display: flex;
     }
+
+    .nav-left {
+        gap: 10px;
+    }
+
+    .language-toggle {
+        min-width: 44px;
+        height: 34px;
+        padding: 0 10px;
+        font-size: 0.82rem;
+    }
     
     .nav-menu {
         position: fixed;
@@ -657,6 +702,10 @@ body {
 
 /* Responsive Design - Mobile */
 @media (max-width: 480px) {
+    .nav-container {
+        padding: 0 15px;
+    }
+
     .hero {
         padding: 40px 15px;
     }

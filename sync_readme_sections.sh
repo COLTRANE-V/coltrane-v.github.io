@@ -82,6 +82,17 @@ if [ "$CHANGES_MADE" = true ]; then
 import re
 import sys
 
+BASE_URL = 'https://coltrane-v.github.io'
+
+def absolutize_links(text):
+    """Converte i link relativi in link assoluti con il dominio del sito."""
+    def replace_link(m):
+        label, url = m.group(1), m.group(2)
+        if not re.match(r'^(https?://|#|/|mailto:)', url):
+            url = BASE_URL + '/' + url
+        return f'[{label}]({url})'
+    return re.sub(r'\[([^\]]*)\]\(([^)]+)\)', replace_link, text)
+
 # Leggi i file
 with open('README.md', 'r', encoding='utf-8') as f:
     source = f.read()
@@ -92,8 +103,8 @@ with open('../COLTRANE.github/profile/README.md', 'r', encoding='utf-8') as f:
 # Estrai sezione Pubblicazioni dal source
 pub_match = re.search(r'(## 📚 Pubblicazioni.*?)(?=\n---\n)', source, re.DOTALL)
 if pub_match:
-    source_publications = pub_match.group(1).rstrip()
-    
+    source_publications = absolutize_links(pub_match.group(1).rstrip())
+
     # Sostituisci nel target
     target = re.sub(
         r'## 📚 Pubblicazioni.*?(?=\n---\n)',
@@ -105,8 +116,8 @@ if pub_match:
 # Estrai sezione Repository dal source
 repo_match = re.search(r'(## 🛠️ Repository del Progetto.*?)(?=\n---\n)', source, re.DOTALL)
 if repo_match:
-    source_repos = repo_match.group(1).rstrip()
-    
+    source_repos = absolutize_links(repo_match.group(1).rstrip())
+
     # Sostituisci nel target
     target = re.sub(
         r'## 🛠️ Repository del Progetto.*?(?=\n---\n)',
