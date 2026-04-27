@@ -97,6 +97,9 @@ Si occupa di cybersecurity con un forte focus su mobile security (Android): anal
 
 ### 2026
 
+- **Experimental Analysis of FreeRTOS Dependability through Targeted Fault Injection Campaigns**  
+  [arXiv](https://arxiv.org/abs/2603.25666) | [Presentazione](presentations/IEEE-DDECS-2026_KRONOS-v7.pdf)
+
 - **CHAOS: Controlled Hardware fAult injectOr System for gem5**  
   [arXiv](https://arxiv.org/abs/2602.02119)
 
