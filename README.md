@@ -98,7 +98,7 @@ His research focuses on cybersecurity with a strong emphasis on mobile security 
 ### 2026
 
 - **Experimental Analysis of FreeRTOS Dependability through Targeted Fault Injection Campaigns**  
-  [arXiv](https://arxiv.org/abs/2603.25666) | [Presentation](presentations/IEEE-DDECS-2026_KRONOS-v7.pdf)
+  [DOI](https://doi.org/10.1109/ddecs69233.2026.11520990) | [IRIS](https://hdl.handle.net/11583/3011141) | [arXiv](https://arxiv.org/abs/2603.25666) | [Presentation](presentations/IEEE-DDECS-2026_KRONOS-v7.pdf)
 
 - **CHAOS: Controlled Hardware fAult injectOr System for gem5**  
   [arXiv](https://arxiv.org/abs/2602.02119)
